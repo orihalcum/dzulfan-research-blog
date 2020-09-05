@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "connection": "default",
-  "collectionName": "categories",
+  "collectionName": "tags",
   "info": {
-    "name": "category"
+    "name": "tags"
   },
   "options": {
     "increments": true,
@@ -12,10 +11,11 @@
   "attributes": {
     "name": {
       "type": "string",
+      "unique": true,
       "required": true
     },
     "articles": {
-      "via": "category",
+      "via": "tags",
       "collection": "article"
     }
   }

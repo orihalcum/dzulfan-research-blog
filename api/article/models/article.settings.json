@@ -1,4 +1,5 @@
 {
+  "kind": "collectionType",
   "connection": "default",
   "collectionName": "articles",
   "info": {
@@ -30,6 +31,14 @@
     "category": {
       "model": "category",
       "via": "articles"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "tags": {
+      "collection": "tags",
+      "via": "articles",
+      "dominant": true
     }
   }
 }
