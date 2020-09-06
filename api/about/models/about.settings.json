@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "about_binawans",
+  "collectionName": "abouts",
   "info": {
-    "name": "about binawan"
+    "name": "about"
   },
   "options": {
     "increments": true,
