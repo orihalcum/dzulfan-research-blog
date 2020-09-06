@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/about-binawans",
+      "handler": "about-binawan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/about-binawans/count",
+      "handler": "about-binawan.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/about-binawans/:id",
+      "handler": "about-binawan.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/about-binawans",
+      "handler": "about-binawan.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/about-binawans/:id",
+      "handler": "about-binawan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/about-binawans/:id",
+      "handler": "about-binawan.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
