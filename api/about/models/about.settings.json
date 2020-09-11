@@ -11,15 +11,16 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": false,
-      "unique": false
+      "required": true,
+      "unique": true
     },
     "content": {
       "type": "richtext",
       "required": true
     },
     "short_title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }
