@@ -11,8 +11,8 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true,
-      "unique": true
+      "required": false,
+      "unique": false
     },
     "content": {
       "type": "richtext",
@@ -20,7 +20,7 @@
     },
     "short_title": {
       "type": "string",
-      "required": true
+      "required": false
     }
   }
 }
