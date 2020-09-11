@@ -9,7 +9,7 @@
     "timestamps": true
   },
   "attributes": {
-    "name": {
+    "title": {
       "type": "string",
       "required": true,
       "unique": true
@@ -17,6 +17,9 @@
     "content": {
       "type": "richtext",
       "required": true
+    },
+    "short_title": {
+      "type": "string"
     }
   }
 }
