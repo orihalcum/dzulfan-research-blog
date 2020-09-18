@@ -21,6 +21,9 @@
     "short_title": {
       "type": "string",
       "required": false
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
